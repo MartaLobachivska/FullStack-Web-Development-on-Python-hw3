@@ -7,12 +7,41 @@ html {
 body {
   flex: 1;
   background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  font-family: Arial, sans-serif;
 }
 
 .container {
   max-width: 960px;
 }
 
+.navbar-brand img {
+  height: 40px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 textarea {
-  height: 250px;
+  height: 150px;
+  resize: none;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.display-1 {
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 8px;
 }
